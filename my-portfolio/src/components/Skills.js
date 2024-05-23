@@ -2,14 +2,16 @@
 const skills = [
     { name: "Python", icon: "/python.png" },
     { name: "Flutter", icon: "/flutter.png" },
-    { name: "React Native", icon: "/native.png" },
-    { name: "Git Source Control", icon: "/assets/git.png" },
-    { name: "Tailwind", icon: "/assets/tailwind.png" },
-    { name: "Mongodb", icon: "/assets/mongodb.png" },
+    { name: "React Native", icon: "/react.png" },
+    { name: "Git Source Control", icon: "/git.png" },
+    { name: "Tailwind", icon: "/tailwind.png" },
+    { name: "Mongodb", icon: "/mongodb.png" },
     { name: "Html", icon: "/html.png" },
-    { name: "JavaScript", icon: "/assets/javascript.png" },
-    { name: "Flask Microweb Framework", icon: "/assets/flask.png" },
-    { name: "MySQL", icon: "/assets/mysql.png" },
+    { name: "JavaScript", icon: "javascript.png" },
+    { name: "Flask Microweb Framework", icon: "flask.png" },
+    { name: "MySQL", icon: "/mysql.png" },
+    { name: "Angular", icon: "/Angular.png" },
+    { name: "Typescript", icon: "/typescript.png" },
    
   ];
   
@@ -21,7 +23,7 @@ const skills = [
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-black p-4 flex flex-col items-center justify-center rounded-lg transition transform hover:scale-105 hover:bg-green-800"
+              className="bg-black p-4 flex flex-col items-center justify-center rounded-lg transition transform hover:scale-105 hover:bg-green-800 cursor-pointer"
             >
               <img src={skill.icon} alt={skill.name} className="h-12 w-12 mb-4" />
               <p className="text-center">{skill.name}</p>

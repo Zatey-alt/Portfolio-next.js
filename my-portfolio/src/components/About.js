@@ -5,8 +5,8 @@ import Skills from './Skills';
 
 const About = () => {
   return (
-    <section id="about" className="p-10  my-10 flex-col ">
-      <div className='flex h-1200px'>
+    <section id="about" className="p-10  mt-24 flex-col ">
+      <div className='flex h-dvh'>
       <div className="hero-left flex-grow">
         <div>
           <h1 className="text-2xl font-bold mb-2 text-7xl">Michael Zatey.</h1>

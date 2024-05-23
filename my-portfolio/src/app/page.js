@@ -5,6 +5,7 @@ import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 import Footer from '@/components/Footer';
+import Experience from '@/components/Experience';
 
 
 export default async function Home() {
@@ -21,11 +22,12 @@ export default async function Home() {
   }
 
   return (
-    <div className="flex-col align-center p-5 bg-white text-black">
+    <div className="flex-col align-center p-5 bg-white text-black ">
       <Header />
       <About />
    
       <Portfolio projects={projects} />
+      <Experience/>
       <Contact />
       <Footer/>
     </div>
